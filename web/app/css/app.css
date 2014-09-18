@@ -29,6 +29,13 @@
   padding: 0;
 }
 
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px; 
+   
+}
+
 .container {
     width: 100%;
     padding-right: 0px; 
