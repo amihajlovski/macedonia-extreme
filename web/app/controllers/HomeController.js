@@ -4,4 +4,9 @@
  * and open the template in the editor.
  */
 
+function HomeController($window, $scope){
+    console.log($window.innerHeight);
+    document.getElementById('logo').style.height = $window.innerHeight + 'px';
+};
+
 

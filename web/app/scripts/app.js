@@ -8,7 +8,7 @@ app.config(['$routeProvider', function($routeProvider, $locationProvider){
         $routeProvider.
                 when('/home', {
                     templateUrl: 'views/home.html',
-                    controller: 'MainController'
+                    controller: 'HomeController'
         }).
                 when('/biking', {
                     templateUrl: 'views/biking.html',
