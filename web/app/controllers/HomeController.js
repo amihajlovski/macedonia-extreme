@@ -7,6 +7,9 @@
 function HomeController($window, $scope){
     console.log($window.innerHeight);
     document.getElementById('logo').style.height = $window.innerHeight + 'px';
+    
+    $scope.title = "M A C E D O N I A          X         B I K I N G   T O U R S";
+    
 };
 
 

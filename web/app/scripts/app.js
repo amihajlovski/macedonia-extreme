@@ -12,7 +12,7 @@ app.config(['$routeProvider', function($routeProvider, $locationProvider){
         }).
                 when('/biking', {
                     templateUrl: 'views/biking.html',
-                    controller: 'MainController'
+                    controller: 'BikeController'
         }).
                 when('/hiking', {
                     templateUrl: 'views/hiking.html',
