@@ -12,35 +12,35 @@ app.config(['$routeProvider', function($routeProvider, $locationProvider){
         }).
                 when('/biking', {
                     templateUrl: 'views/biking.html',
-                    controller: 'BikeController'
+                    controller: 'ContentController'
         }).
                 when('/hiking', {
                     templateUrl: 'views/hiking.html',
-                    controller: 'MainController'
+                    controller: 'ContentController'
         }).
                 when('/jeep-safari', {
                     templateUrl: 'views/jeep-safari.html',
-                    controller: 'MainController'
+                    controller: 'ContentController'
         }).
                 when('/kayaking', {
                     templateUrl: 'views/kayaking.html',
-                    controller: 'MainController'
+                    controller: 'ContentController'
         }).
                 when('/paragliding', {
                     templateUrl: 'views/paragliding.html',
-                    controller: 'MainController'
+                    controller: 'ContentController'
         }).
                 when('/rock-climbing', {
                     templateUrl: 'views/rock-climbing.html',
-                    controller: 'MainController'
+                    controller: 'ContentController'
         }).
                 when('/scuba-diving', {
                     templateUrl: 'views/scuba-diving.html',
-                    controller: 'MainController'
+                    controller: 'ContentController'
         }).
                 when('/snow-boarding', {
                     templateUrl: 'views/snow-boarding.html',
-                    controller: 'MainController'
+                    controller: 'ContentController'
         }).
                 otherwise({
                     redirectTo: '/home'
