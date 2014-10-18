@@ -1,31 +1,86 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="macedoniaExtreme" class="no-js">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Extreme Macedonia </title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" 
-      type="image/png" 
-      href="img/xmark.png">
-    
-<!--                            SCRIPTS                                      -->
-    <script src="scripts/angular.min.js" type="text/javascript"></script>
-    <script src="scripts/angular-route.js" type="text/javascript"></script>
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-    <link href="css/app.css" rel="stylesheet" type="text/css"/>
-    <link href="css/hover.css" rel="stylesheet" type="text/css"/>
-    
-<!--                         CONFIGURATION                                   -->
-    <script src="scripts/app.js" type="text/javascript"></script>
-    <script src="controllers/HomeController.js" type="text/javascript"></script>
-    <script src="controllers/ContentController.js" type="text/javascript"></script>
-</head>
-<body>
-  
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Extreme Macedonia </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" 
+              type="image/png" 
+              href="img/xmark.png">
 
-    <div ng-view ></div>
+        <!--                            SCRIPTS                                      -->
+        <script src="scripts/angular.min.js" type="text/javascript"></script>
+        <script src="scripts/angular-route.js" type="text/javascript"></script>
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="css/app.css" rel="stylesheet" type="text/css"/>
+        <link href="css/hover.css" rel="stylesheet" type="text/css"/>
 
-</body>
+        <!--                         CONFIGURATION                                   -->
+        <script src="scripts/app.js" type="text/javascript"></script>
+        <script src="controllers/HomeController.js" type="text/javascript"></script>
+        <script src="controllers/ContentController.js" type="text/javascript"></script>
+    </head>
+    <body>
+
+
+        <div ng-view ></div>
+        <div class="row">
+            <div class="underImages"></div>
+        </div>
+
+        <div class="row footer">
+
+            <div class="row">
+                <div class="col-md-8 col-md-offset-4">
+                    <img src="../img/logo-belo.png" style="margin-top: 13px;margin-right: 15px;width: 50px;height: 50px;float: left;" alt=""/>
+                    <p style="font-size: 44px;margin-top: 13px;float: left;">TRAVEL IS OUR LIFE.</p>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-2 col-md-offset-1">
+                    <p style="font-size: 32px;text-decoration: underline;">MENU</p>
+                    <p style="font-size: 16px;"><a href="#/biking">BIKING</a></p>
+                    <p style="font-size: 16px;"><a href="#/jeep-safari">JEEP SAFARI</a></p>
+                    <p style="font-size: 16px;">ROCK CLIMBING</p>
+                    <p style="font-size: 16px;"><a href="#/hiking">HIKING</a></p>
+                    <p style="font-size: 16px;">SNOWBOARDING</p>
+                    <p style="font-size: 16px;">KAYAKING</p>
+                    <p style="font-size: 16px;">PARAGLIDING</p>
+                    <p style="font-size: 16px;">SCUBA DIVING</p>
+                </div>
+                <div class="col-md-2">
+                    <p style="font-size: 32px;text-decoration: underline;">ABOUT <span style="color:red;font-size: 40px;">X</span></p>
+                    <p style="font-size: 16px;">EXTREME MACEDONIA IS WEBSITE FOR ADVENTURERS AND EXPLORERS FROM ALL OVER THE WORLD...</p>
+                </div>
+                <div class="col-md-3">
+                    <p style="font-size: 32px;text-decoration: underline;">CONTACT</p>
+                    <p style="font-size: 16px;">P: +389 23 115 587</p>
+                    <p style="font-size: 16px;">M: +389 70 270 252</p>
+                    <p style="font-size: 16px;">E: INFO @ EXTREME-MACEDONIA . COM</p>
+                    <p style="font-size: 16px;"><a href="http://www.extreme-macedonia.com" target="_blank">WWW.EXTREME-MACEDONIA.COM</a></p>
+                    <p style="font-size: 16px;"><a href="http://www.kompas-macedonia.com" target="_blank"> WWW.KOMPAS-MACEDONIA.COM</a></p>
+                    <p style="font-size: 16px;"><a href=""> WWW.KOMPAS-SKOPJE.COM</a></p>
+                </div>
+                <div class="col-md-4">
+                    <p style="font-size: 32px;text-decoration: underline;">EXTREME FOLLOW-UP</p>
+                    <div style="float: left;">
+                        <div class="fb"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="copyright">
+                <div class="col-md-11 col-md-offset-1">
+                    <p style="font-size: 20px;margin-top: 13px;">© 2014 EXTREME MACEDONIA. ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

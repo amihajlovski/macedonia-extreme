@@ -10,6 +10,14 @@ p {
     color: #fff;
 }
 
+p a{
+    color: #fff;
+}
+
+p a:hover{
+    color: #CF0906;
+}
+
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -85,7 +93,6 @@ img {
 
 .underImages {
     border-bottom: 5px solid #CF0906;
-    height: 20px;
     width: 100%;
 }
 
@@ -149,6 +156,12 @@ img {
 
 #down-side .col-md-2 img {
     height: 40%;
+}
+
+.fb {
+    background: url('../img/social-sprite.png') 50px 50px;
+    height: 100px;
+    width: 100px;
 }
 
 
