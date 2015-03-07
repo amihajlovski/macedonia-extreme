@@ -38,7 +38,7 @@ app.config(['$routeProvider', function($routeProvider, $locationProvider){
                     templateUrl: 'views/scuba-diving.html',
                     controller: 'ContentController'
         }).
-                when('/snow-boarding', {
+                when('/snowboarding', {
                     templateUrl: 'views/snow-boarding.html',
                     controller: 'ContentController'
         }).
