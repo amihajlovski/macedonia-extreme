@@ -19,4 +19,5 @@ function ContentController($window, $scope){
     document.getElementById('line3').style.height = (($scope.resHeight * 0.4) * 0.2) + 'px';
     document.getElementById('line4').style.height = (($scope.resHeight * 0.4) * 0.2) + 'px';
     document.getElementById('line5').style.height = (($scope.resHeight * 0.4) * 0.2) + 'px';
+
 }
