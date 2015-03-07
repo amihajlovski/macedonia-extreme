@@ -50,22 +50,22 @@ p a:hover{
 .navbar {
     position: relative;
     min-height: 50px;
-    margin-bottom: 0px; 
-   
+    margin-bottom: 0px;
+
 }
 
 .container {
     height: 100%;
     width: 100%;
-    padding-right: 0px; 
-    padding-left: 0px; 
-    margin-right: auto; 
-    margin-left: auto; 
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .col-md-3 {
     padding-right: 0px;
     padding-left: 0px;
-    height: 25%;
+    height: 100%;
 }
 img {
     vertical-align: middle;
@@ -78,7 +78,7 @@ img {
 }
 
 .col-md-3 a img{
-    height: 50%;
+    /*height: 50%;*/
 }
 
 .row {
@@ -112,7 +112,7 @@ img {
 .down-logo {
     float:left;
     width:5%;
-    height: 100%;
+    height: 50%;
 }
 
 .bike-img {
@@ -166,10 +166,10 @@ img {
     #vertical-image{
         display: none;
     }
-    
+
 }
 
-@media (min-width: 768px){    
+@media (min-width: 768px){
     .container {
         width: 100%;
     }
@@ -182,7 +182,7 @@ img {
     .container {
         width: 100%;
     }
-    
+
     #vertical-image{
         display: none;
     }
